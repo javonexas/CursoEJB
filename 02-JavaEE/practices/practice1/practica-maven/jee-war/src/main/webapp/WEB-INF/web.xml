@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>SaludaServlet</display-name>
+    <servlet-name>SaludaServlet</servlet-name>
+    <servlet-class>com.certificatic.servlet.SaludaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaludaServlet</servlet-name>
+    <url-pattern>/SaludaServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
